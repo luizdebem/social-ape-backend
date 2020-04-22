@@ -66,3 +66,4 @@ node_modules/
 
 # Firebase app credentials
 socialape-6ffab-cc683a501810.json
+firebaseConfig.json
