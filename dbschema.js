@@ -20,4 +20,28 @@ let db = {
       commentCount: 2
     }
   ]
-}
+};
+
+const userDetails = {
+  // isso aqui vai ser usado no redux
+  credentials: {
+    userId: 'a46awg8486awg',
+    email: 'user@email.com',
+    handle: 'user',
+    createdAt: '2020-04-22T20:44:35.741Z',
+    imageUrl: 'image/asgkjlçasg/klaçsg',
+    bio: 'Hello, my name is user, follow if you like shitposting',
+    website: 'https://user.com',
+    location: 'Florianópolis, BR'
+  },
+  likes: [
+    {
+      userHandle: 'user',
+      screamId: 'hhashsas4AH45'
+    },
+    {
+      userHandle: 'user',
+      screamId: 'AKSGOpk6ASg54'
+    }
+  ]
+};
