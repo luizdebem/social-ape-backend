@@ -48,7 +48,7 @@ exports.getScream = (req, res) => {
       }
       screamData = doc.data();
       screamData.screamId = doc.id;
-      return db.collection('comments').where('screamId', '==', req.params.screamId).get();
+      return db.collection('comments').orderBy('createdAt', 'desc').where('screamId', '==', req.params.screamId).get();
     })
     .then(data => {
       screamData.comments = [];
