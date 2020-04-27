@@ -24,7 +24,7 @@ app.post('/user/image', FBAuth, uploadImage);
 app.post('/user', FBAuth, addUserDetails);
 app.get('/user', FBAuth, getAuthenticatedUser)
 
-exports.api = functions.region('us-east1').https.onRequest(app);
+exports.apiUsEast = functions.region('us-east1').https.onRequest(app);
 
 exports.createNotificationOnLike = functions.region('us-east1').firestore.document('likes/{id}')
   .onCreate(snapshot => {
