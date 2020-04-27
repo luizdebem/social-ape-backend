@@ -19,6 +19,24 @@ let db = {
       likeCount: 5,
       commentCount: 2
     }
+  ],
+  comments: [
+    {
+      userHandle: 'user',
+      screamId: 'ajasklglajsg',
+      body: 'massa feio',
+      createdAt: '2020-04-27T10:33:52.789Z'
+    }
+  ],
+  notifications: [
+    {
+      recipient: 'user',
+      sender: 'josias',
+      read: 'true/false',
+      screamId: 'ajasklglajsg',
+      type: 'like/comment',
+      createdAt: '2020-04-27T10:33:52.789Z'
+    }
   ]
 };
 
